@@ -4,23 +4,24 @@ body {
   font-family: sans-serif;
 }
 
-ul {
+.nav-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #eeedf0;
   position: fixed;
+  right: 0;
   left: 0;
   top: 0;
   width: 100%;
 }
 
-li {
+.nav-li {
   float: right;
 }
 
-li a {
+.nav-link {
   display: block;
   text-align: center;
   padding: 14px 16px;
@@ -32,8 +33,32 @@ li a:hover {
   color: #eeedf0;
 }
 
-a:link,
-a:visited {
+a:link, a:visited {
   text-decoration: none;
   color: black;
+}
+
+.footer-div {
+  background-color: #eeedf0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.footer-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-link {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
