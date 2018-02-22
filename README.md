@@ -1,4 +1,4 @@
-# Applied Responsive Web Design Projects: Build a Survey Form
+# Applied Responsive Web Design Projects: Build a Survey Form:
 
 - Fulfill the user stories by getting all of the tests to pass. Use whichever libraries you need. Give it your own personal style.
 - Here's a working example. Try not to look at its code.
@@ -7,7 +7,7 @@
 - Remember to use the Read-Search-Ask method if you get stuck.
 
 
-# Product Landing Page tests
+# Product Landing Page tests:
  
 # Technology Stack
 You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
