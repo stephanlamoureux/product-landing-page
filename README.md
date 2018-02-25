@@ -1,4 +1,4 @@
-# Applied Responsive Web Design Projects: Build a Survey Form:
+# Applied Responsive Web Design Projects: Build A Product Landing Page:
 
 - Fulfill the user stories by getting all of the tests to pass. Use whichever libraries you need. Give it your own personal style.
 - Here's a working example. Try not to look at its code.
