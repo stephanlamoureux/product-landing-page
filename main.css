@@ -1,10 +1,17 @@
 body {
-  background-image: url("https://images.unsplash.com/photo-1493689485253-f07fcbfc731b?auto=format&fit=crop&w=1933&q=80");
-  background-size: cover;
   font-family: sans-serif;
 }
 
-.nav-list {
+header {
+  position: fixed;
+  top: 0;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.nav-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -17,7 +24,7 @@ body {
   width: 100%;
 }
 
-.nav-li {
+.nav-list {
   float: right;
 }
 
@@ -38,7 +45,18 @@ a:link, a:visited {
   color: black;
 }
 
-.footer-div {
+.features {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.icon {}
+
+.form-div {
+  text-align: center;
+}
+
+.footer {
   background-color: #eeedf0;
   position: fixed;
   bottom: 0;
@@ -61,4 +79,14 @@ a:link, a:visited {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.video {
+  text-align: center;
+  margin: 1em;
+}
+
+.shop {
+  display: flex;
+  justify-content: space-around;
 }

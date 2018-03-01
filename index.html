@@ -4,58 +4,122 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
   <link rel="stylesheet" type="text/css" href="main.css">
-  <!-- <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script> -->
+  <link rel="icon" type="image/png" href="Images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Kitten Mittens - You'll Be Smitten</title>
 </head>
 
 <body>
-  <!-- freeCodeCamp Testing Suite
-<script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js">/script> -->
+  <div class="wrapper">
+    <header id="header">
 
-<div class="container">
+      <!-- add header image -->
+      <img src="" alt="" id="header-img">
 
-  <header id="header">
+      <nav id="nav-bar" class="nav">
+        <ul class="nav-ul">
+          <li style="float:left"><a href="#header" class="nav-link">Kitten Mittens</a></li>
+          <li class="nav-list"><a href="#features" class="nav-link">Features</a></li>
+          <li class="nav-list"><a href="#video" class="nav-link">Video</a></li>
+          <li class="nav-list"><a href="#shop" class="nav-link">
+            Shop</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <!-- add header image -->
-    <img src="" alt="" id="header-img">
+    <div class="container">
 
-    <!-- make nav menu responsive with media queries -->
-    <nav id="nav-bar" class="nav-bar">
-      <ul class="nav-list">
-        <li style="float:left"><a href="#top" class="nav-link">Home</a></li>
-        <li class="nav-li"><a href="#about" class="nav-link">Info</a></li>
-        <li class="nav-li"><a href="#video" class="nav-link">Video</a></li>
-        <li class="nav-li"><a href="#form" class="nav-link">Mailing List</a></li>
-      </ul>
-    </nav>
-  </header>
+      <section id="features" class="features">
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-fire"></i></div>
+          <div class="desc">
+            <h2>Premium Materials</h2>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-fire"></i></div>
+          <div class="desc">
+            <h2>Premium Materials</h2>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-fire"></i></div>
+          <div class="desc">
+            <h2>Premium Materials</h2>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          </div>
+        </div>
+      </section>
 
-  <main id="main">
+      <div id="form-div" class="form-div">
+        <form id="form" class="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="email" id="email-label" class="email-label">E-Mail Address:</label>
+          <input type="email" id="email" class="email" name="email" placeholder="Subscribe Today" required></input>
+          <input type="submit" id="submit" class="submit" value="Subscribe"></input>
+        </form>
+      </div>
 
-    <!-- create mailing list form -->
-    <div id="form-div">
-      <form id="form" class="form">
-        <!--
-8.  Within the form, there is an <input> field with id="email" where I can enter an email address.
-9.  The #email input field should have placeholder text to let the user know what the field is for.
-10. The #email input field uses HTML5 validation to confirm that the entered text is an email address.
-11. Within the form, there is a submit <input> with corresponding id="submit".
-12. When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit) that confirms the email address was entered (and that it posted successfully). -->
-      </form>
+      <section class="video">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/B0VaETcNE1c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </section>
+
+      <section id="shop" class="shop">
+        <div id="tenor">
+          <div class="level">
+            Tenor Trombone
+          </div>
+          <h2>$600</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div id="tenor">
+          <div class="level">
+            Tenor Trombone
+          </div>
+          <h2>$600</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div id="tenor">
+          <div class="level">
+            Tenor Trombone
+          </div>
+          <h2>$600</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+
+      <footer class="footer" id="footer">
+        <ul class="footer-ul">
+          <li class="footer-list"><a href="#" class="footer-link" id="about">About</a></li>
+          <li class="footer-list"><a href="#" class="footer-link" id="contact">Contact</a></li>
+        </ul>
+      </footer>
+
     </div>
-
-    <!-- add video  -->
-    <video src="" id="video"></video>
-  </main>
-
-  <!-- footer menu with flexbox -->
-  <footer class="footer-div" id="footer">
-    <ul class="footer-ul">
-      <li class="footer-li"><a href="#" class="footer-link" id="about">About</a></li>
-      <li class="footer-li"><a href="#" class="footer-link" id="contact">Contact</a></li>
-    </ul>
-  </footer>
-
-</div>
+  </div>
 </body>
+
+</html>
