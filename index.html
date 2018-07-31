@@ -2,124 +2,165 @@
 <html lang="en">
 
 <head>
+
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="icon" type="image/png" href="Images/favicon.png">
+  <meta name="description" content="Product Landing Page - for the freeCodeCamp Responsive Design Certificate.">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Kitten Mittens - You'll Be Smitten</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <title>Kitten Mittens - You'll Be Smitten!</title>
+
 </head>
 
 <body>
-  <div class="wrapper">
-    <header id="header">
-
-      <!-- add header image -->
-      <img src="" alt="" id="header-img">
-
-      <nav id="nav-bar" class="nav">
-        <ul class="nav-ul">
-          <li style="float:left"><a href="#header" class="nav-link">Kitten Mittens</a></li>
-          <li class="nav-list"><a href="#features" class="nav-link">Features</a></li>
-          <li class="nav-list"><a href="#video" class="nav-link">Video</a></li>
-          <li class="nav-list"><a href="#shop" class="nav-link">
-            Shop</a></li>
+  <header id="header" class="header">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="nav-bar">
+      <a class="navbar-brand" href="#">
+        <img src="images/mitten.svg" id="header-img" width="30" height="30" class="d-inline-block align-top" alt="Cat Logo"> Kitten Mittons</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-4">
+          <li class="nav-item">
+            <a class="nav-link " href="#section-video">How It Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#section-merch">Buy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#section-contact">Contact</a>
+          </li>
         </ul>
-      </nav>
-    </header>
-
-    <div class="container">
-
-      <section id="features" class="features">
-        <div class="grid">
-          <div class="icon">
-            <i class="fa fa-3x fa-fire"></i></div>
-          <div class="desc">
-            <h2>Premium Materials</h2>
-            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-          </div>
-        </div>
-        <div class="grid">
-          <div class="icon">
-            <i class="fa fa-3x fa-fire"></i></div>
-          <div class="desc">
-            <h2>Premium Materials</h2>
-            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-          </div>
-        </div>
-        <div class="grid">
-          <div class="icon">
-            <i class="fa fa-3x fa-fire"></i></div>
-          <div class="desc">
-            <h2>Premium Materials</h2>
-            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-          </div>
-        </div>
-      </section>
-
-      <div id="form-div" class="form-div">
-        <form id="form" class="form" action="https://www.freecodecamp.com/email-submit">
-          <label for="email" id="email-label" class="email-label">E-Mail Address:</label>
-          <input type="email" id="email" class="email" name="email" placeholder="Subscribe Today" required></input>
-          <input type="submit" id="submit" class="submit" value="Subscribe"></input>
-        </form>
       </div>
+    </nav>
+  </header>
 
-      <section class="video">
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/B0VaETcNE1c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </section>
-
-      <section id="shop" class="shop">
-        <div id="tenor">
-          <div class="level">
-            Tenor Trombone
-          </div>
-          <h2>$600</h2>
-          <ol>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum dolor.</li>
-            <li>Lorem ipsum.</li>
-          </ol>
-          <button class="btn">Select</button>
+  <!-- Video -->
+  <div class="about" id="section-video">
+    <div class="container">
+      <h1 class="text-center">Is Your Cat Making
+        <strong>TOO</strong> Much Noise?</h1>
+      <div class="row text-center">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <h3 class="charlie">Charlie Kelly</h3>
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/B0VaETcNE1c" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
         </div>
-        <div id="tenor">
-          <div class="level">
-            Tenor Trombone
-          </div>
-          <h2>$600</h2>
-          <ol>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum dolor.</li>
-            <li>Lorem ipsum.</li>
-          </ol>
-          <button class="btn">Select</button>
-        </div>
-        <div id="tenor">
-          <div class="level">
-            Tenor Trombone
-          </div>
-          <h2>$600</h2>
-          <ol>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum dolor.</li>
-            <li>Lorem ipsum.</li>
-          </ol>
-          <button class="btn">Select</button>
-        </div>
-      </section>
-
-      <footer class="footer" id="footer">
-        <ul class="footer-ul">
-          <li class="footer-list"><a href="#" class="footer-link" id="about">About</a></li>
-          <li class="footer-list"><a href="#" class="footer-link" id="contact">Contact</a></li>
-        </ul>
-      </footer>
-
+      </div>
     </div>
   </div>
+
+  <!-- Merch section -->
+  <div class="blog" id="section-merch">
+    <div class="container">
+      <h1 class="text-center">Merch</h1>
+      <div class="row">
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/green.jpg" class="img-fluid">
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title">Charlie T-Shirt</h4>
+              <p class="card-text">
+
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/mits.jpg" class="img-fluid">
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title">The Original Mittens</h4>
+              <p class="card-text">
+
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/blue.jpg" class="img-fluid">
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title">Smitten T-Shirt</h4>
+              <p class="card-text">
+
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact form -->
+  <div class="contact-form" id="section-contact">
+    <div class="container">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h1>Get in Touch</h1>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 right">
+            <div class="form-group">
+              <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="name" id="name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email" id="email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control form-control-lg">
+              </textarea>
+            </div>
+            <input type="submit" class="btn btn-secondary btn-block" value="Send" name="submit" id="submit">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Bootstrap js -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  <!-- Smooth Scroll -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js"></script>
+  <!-- Main javascript-->
+  <script type="text/javascript" src='main.js'></script>
+  <!-- smooth scroll  -->
+  <script type="text/javascript">
+    $(function () {
+      var scroll = new SmoothScroll('a[href*="#section-"]');
+    });
+  </script>
+
 </body>
 
 </html>
