@@ -14,7 +14,8 @@ body {
   background: #F97300;
 }
 
-.nav-link, .navbar-brand {
+.nav-link,
+.navbar-brand {
   color: #f4f4f4;
   cursor: pointer;
 }
@@ -119,7 +120,7 @@ body {
 }
 
 .blog .card img {
-  width: 100%;
+  width: auto;
   height: 12em;
 }
 
