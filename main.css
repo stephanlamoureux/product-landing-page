@@ -78,6 +78,7 @@ body {
 .about h1 {
   color: #F97300;
   margin: 2em;
+  font-size: 3rem;
 }
 
 .about img {
@@ -89,46 +90,48 @@ body {
   color: #888888;
 }
 
-.about .desc {
+.about {
   padding: 2em;
   border-left: 4px solid #10828C;
 }
 
-.about .desc h3 {
-  color: #10828C;
+.about h4 {
+  font-style: italic;
 }
 
-.about .desc p {
+.about p {
   line-height: 2;
   color: #888888;
 }
 
-/* */
+/* Merch */
 
-.blog {
+.merch {
   margin: 4em 0;
   position: relative;
 }
 
-.blog h1 {
+.merch h1 {
   color: #F97300;
   margin: 2em;
 }
 
-.blog .card {
+.merch .card {
   box-shadow: 0 0 20px #cccccc;
 }
 
-.blog .card img {
+.merch .card img {
   width: auto;
   height: 12em;
+  margin-top: 20px;
 }
 
-.blog .card-title {
+.merch .card-title {
   color: #F97300;
+  text-align: center;
 }
 
-.blog .card-body {
+.merch .card-body {
   padding: 1em;
 }
 
@@ -157,4 +160,14 @@ body {
 .contact-form .right .form-control::placeholder {
   color: #888888;
   font-size: 16px;
+}
+
+/* Footer */
+
+footer {
+
+}
+
+footer p {
+  text-align: center;
 }
