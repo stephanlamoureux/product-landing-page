@@ -14,10 +14,19 @@ body {
   background: #F97300;
 }
 
+.navbar img {
+  padding-right: 5px;
+}
+
 .nav-link,
 .navbar-brand {
   color: #f4f4f4;
   cursor: pointer;
+}
+
+.navbar-brand:hover {
+  color: #f4f4f4;
+  text-decoration: underline;
 }
 
 .nav-link {
