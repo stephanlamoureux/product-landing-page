@@ -33,10 +33,6 @@ body {
   justify-content: flex-end;
 }
 
-.navbar-toggler {
-  background: #ffffff;
-}
-
 /* Header */
 
 .header {
@@ -164,9 +160,7 @@ body {
 
 /* Footer */
 
-footer {
-
-}
+footer {}
 
 footer p {
   text-align: center;
