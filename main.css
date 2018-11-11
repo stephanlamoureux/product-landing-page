@@ -183,8 +183,12 @@ a:visited {
 
 /* Footer */
 
-footer {}
+footer {
+  color: #f97300;
+  padding: 5px;
+  text-align: center;
+}
 
 footer p {
-  text-align: center;
+  margin: 0;
 }
