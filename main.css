@@ -92,15 +92,6 @@ a:visited {
   font-size: 3rem;
 }
 
-.about img {
-  height: 100%;
-  width: 100%;
-}
-
-.about span {
-  color: #888888;
-}
-
 .charlie {
   font-style: italic;
   display: block;
@@ -191,4 +182,20 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-header {
+    text-align: center;
+  }
+
+  .contact-form h1 {
+    padding: 1em 1px;
+    color: #F97300;
+  }
+
+  .merch-card {
+    margin-bottom: 25px;
+  }
+
 }
