@@ -8,6 +8,13 @@ body {
   font-family: "Raleway";
 }
 
+a:link,
+a:active,
+a:visited {
+  color: #012E27;
+  font-weight: 800;
+}
+
 /* Nav Menu */
 
 .navbar {
@@ -26,7 +33,6 @@ body {
 
 .navbar-brand:hover {
   color: #f4f4f4;
-  text-decoration: underline;
 }
 
 .nav-link {
@@ -100,8 +106,13 @@ body {
   border-left: 4px solid #10828C;
 }
 
-.about h4 {
+.charlie {
   font-style: italic;
+  display: block;
+}
+
+.ext-link {
+  padding-left: 5px;
 }
 
 .about p {
@@ -138,6 +149,14 @@ body {
 
 .merch .card-body {
   padding: 1em;
+}
+
+.merch .card-link:hover {
+  color: #f97300;
+}
+
+.merch .card-link {
+  color: green;
 }
 
 /* Contact */
