@@ -59,24 +59,6 @@ a:visited {
   background-color: #012E27;
 }
 
-/* E-mail Form */
-
-.subscribe {
-  position: absolute;
-  top: 30%;
-  margin: auto;
-  padding: 2em;
-}
-
-.subscribe h1 {
-  color: #F97300;
-}
-
-.subscribe button {
-  border: 1px solid #F97300;
-  background: #F97300;
-  color: #ffffff;
-}
 
 /* Video */
 
@@ -86,7 +68,7 @@ a:visited {
   position: relative;
 }
 
-.about h1 {
+.video-header {
   color: #F97300;
   margin: 2em;
   font-size: 3rem;
@@ -113,9 +95,10 @@ a:visited {
   position: relative;
 }
 
-.merch h1 {
+.merch-header {
   color: #F97300;
   margin: 2em;
+  font-size: 2.5em;
 }
 
 .merch .card {
@@ -152,9 +135,10 @@ a:visited {
   position: relative;
 }
 
-.contact-form h1 {
+.contact-header {
   padding: 2em 1px;
   color: #F97300;
+  font-size: 2.5em;
 }
 
 .contact-form .right {
@@ -187,9 +171,6 @@ footer p {
 @media only screen and (max-width: 768px) {
   .contact-header {
     text-align: center;
-  }
-
-  .contact-form h1 {
     padding: 1em 1px;
     color: #F97300;
   }
