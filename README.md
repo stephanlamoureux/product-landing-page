@@ -27,3 +27,6 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
  1. The navbar should always be at the top of the viewport.
  2. My product landing page should have at least one media query.
  3. My product landing page should utilize CSS flexbox at least once.
+
+## Completed Project
+https://slamoureux.github.io/product-landing-page/
