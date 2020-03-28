@@ -2,7 +2,7 @@
 
 Fulfill the user stories by getting all of the tests to pass. Use whichever libraries you need. Give it your own personal style.
 
-- [Here's](https://codepen.io/freeCodeCamp/full/RKRbwL) a working example. Try not to look at its code.
+[Here's](https://codepen.io/freeCodeCamp/full/RKRbwL) a working example. Try not to look at its code.
 
 - User Story #1: My product landing page should have a header element with a corresponding id="header".
 - User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
