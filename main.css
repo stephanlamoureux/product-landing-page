@@ -25,11 +25,17 @@ a:visited {
   padding-right: 5px;
 }
 
+nav a:link,
+nav a:active,
+nav a:visited {
+  color: #f4f4f4;
+}
+
 .nav-link,
 .navbar-brand {
   color: #f4f4f4;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .navbar-brand:hover {
