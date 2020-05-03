@@ -210,7 +210,7 @@ footer a:hover {
   color: #F97300;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1366px) {
   .contact-header {
     text-align: center;
     padding: 0em 1px 0 1px;
