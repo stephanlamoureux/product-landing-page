@@ -18,7 +18,8 @@ a:visited {
 /* Nav Menu */
 
 .navbar {
-  background: #F97300;
+  background: #ff821c;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 .navbar img {
@@ -28,7 +29,8 @@ a:visited {
 nav a:link,
 nav a:active,
 nav a:visited {
-  color: #f4f4f4;
+  color: #012E27;
+  font-weight: bold;
 }
 
 .nav-link,
@@ -39,7 +41,7 @@ nav a:visited {
 }
 
 .navbar-brand:hover {
-  color: #012E27;
+  color: #f4f4f4;
 }
 
 .nav-link {
@@ -47,7 +49,7 @@ nav a:visited {
 }
 
 .nav-link:hover {
-  color: #012E27;
+  color: #f4f4f4;
 }
 
 .navbar-collapse {
@@ -69,14 +71,12 @@ nav a:visited {
 /* Video */
 
 .about {
-  margin: 1em 0;
-  padding: 1em;
   position: relative;
 }
 
 .video-header {
   color: #F97300;
-  margin: 1em 2em 2em 2em;
+  margin: 2em;
   font-size: 3rem;
 }
 
@@ -98,7 +98,7 @@ nav a:visited {
 /* Merch */
 
 .merch {
-  margin: 4em 0;
+  margin: 6em 0;
   position: relative;
 }
 
@@ -138,7 +138,7 @@ nav a:visited {
 /* Contact */
 
 .contact-form {
-  margin: 6em 0;
+  margin: 10em 0 6em 0;
   position: relative;
 }
 
@@ -211,6 +211,10 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 1366px) {
+  .contact-form {
+    margin-top: 6em;
+  }
+
   .contact-header {
     text-align: center;
     padding: 0em 1px 0 1px;
