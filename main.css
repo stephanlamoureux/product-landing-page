@@ -23,7 +23,8 @@ a:visited {
 }
 
 .navbar img {
-  padding-right: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 nav a:link,
@@ -33,11 +34,16 @@ nav a:visited {
   font-weight: bold;
 }
 
-.nav-link,
-.navbar-brand {
+.nav-link {
   color: #f4f4f4;
   cursor: pointer;
   font-size: 1.4rem;
+}
+
+.navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer;
+  font-size: 2rem;
 }
 
 .navbar-brand:hover {
@@ -234,4 +240,7 @@ footer a:hover {
     background-attachment: scroll;
   }
 
+  .navbar img {
+    margin-left: 0px;
+  }
 }
