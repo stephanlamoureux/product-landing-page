@@ -2,7 +2,7 @@
 
 ## Responsive Web Design Projects: Build A Product Landing Page
 
-Fulfill the user stories by getting all of the tests to pass. Use whichever libraries you need. Give it your own personal style.
+#### Fulfill the user stories by getting all of the tests to pass. Use whichever libraries you need. Give it your own personal style.
 
 [Here's](https://codepen.io/freeCodeCamp/full/RKRbwL) a working example. Try not to look at its code.
 
@@ -22,11 +22,11 @@ Fulfill the user stories by getting all of the tests to pass. Use whichever libr
 - User Story #14: My product landing page should have at least one media query.
 - User Story #15: My product landing page should utilize CSS flexbox at least once.
 
-You can build your project by forking this CodePen pen. Or you can use [this](https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js) CDN link to run the tests in any environment you like.
+#### You can build your project by forking this CodePen pen. Or you can use [this](https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js) CDN link to run the tests in any environment you like.
 
-Once you're done, submit the URL to your working project with all its tests passing.
+#### Once you're done, submit the URL to your working project with all its tests passing.
 
-Remember to use the Read-Search-Ask method if you get stuck.
+#### Remember to use the Read-Search-Ask method if you get stuck.
 
 ### Technology Stack
 
