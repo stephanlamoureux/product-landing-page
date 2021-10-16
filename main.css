@@ -12,7 +12,7 @@ a:link,
 a:active,
 a:visited {
   color: #012E27;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 /* Nav Menu */
@@ -30,8 +30,12 @@ a:visited {
 nav a:link,
 nav a:active,
 nav a:visited {
+<<<<<<< HEAD
   color: #f4f4f4;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+=======
+  color: #012E27;
+>>>>>>> 47707bffb5033fae297a7838b9e57944b8a0d094
 }
 
 .nav-link {
